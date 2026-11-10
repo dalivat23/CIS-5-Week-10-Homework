@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Practice 10 — Your Name
+// Practice 10 — Tristan Daliva
 // CIS 5 Week 10 · Gradebook tools
 
 void printScores(const int scores[], int n) {
@@ -9,7 +9,7 @@ void printScores(const int scores[], int n) {
 }
 
 void curve(int scores[], int n, int points) {
-  // TODO: add points to every score
+  
 }
 
 void minMax(const int scores[], int n, int& lo, int& hi) {
