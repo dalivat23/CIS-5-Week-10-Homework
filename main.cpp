@@ -37,7 +37,14 @@ void minMax(const int scores[], int n, int& lo, int& hi) {
 }
 
 bool findScore(const int scores[], int n, int target, int* where) {
-  
+  for(int i = 0; i < n; ++i){
+    if (scores[i] == target){
+      if (where != nullptr){
+        *where = i;
+      }
+      return true;
+    }
+  }
   return false;
 }
 
