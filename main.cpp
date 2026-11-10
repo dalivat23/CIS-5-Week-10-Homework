@@ -9,7 +9,10 @@ void printScores(const int scores[], int n) {
 }
 
 void curve(int scores[], int n, int points) {
-  
+  for(int i = 0;i < n; ++i){
+    scores[i] = scores[i] + points;
+  }
+
 }
 
 void minMax(const int scores[], int n, int& lo, int& hi) {
